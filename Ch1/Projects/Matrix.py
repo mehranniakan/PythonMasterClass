@@ -48,7 +48,7 @@ def calculator():
     print(50 * '=')
 
     counter = 0
-
+## Long Way
     for i in matrix:
         counter += 1
         row_sum = 0
@@ -65,6 +65,7 @@ def calculator():
             print(f'Sum of {counter}th row of matrix is: {row_sum}')
 
     print(50*'=')
+## Short Way
     column_sum = [sum(col) for col in zip(*matrix)]
 
     for i, column_sum in enumerate(column_sum, 1):
