@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>توکیو | درباره من</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+          rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/plugins.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dark.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+</head>
+
+<body>
+
+<!-- Main Wrapper -->
+<div class="tokyo_tm_all_wrap" data-magic-cursor="show" data-enter="fadeInLeft" data-exit="">
+
+    <!-- Mobile Menu -->
+    <div class="tokyo_tm_topbar">
+        <div class="topbar_inner">
+            <div class="logo">
+                <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='img/logo/dark.png') }}"
+                                                      alt=""/></a>
+            </div>
+            <div class="trigger">
+                <div class="hamburger hamburger--slider">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Desktop Menu / Leftpart -->
+    <div class="leftpart">
+        <div class="leftpart_inner">
+            <div class="logo">
+                <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='img/logo/dark.png') }}"
+                                                      alt=""/></a>
+            </div>
+            <div class="menu">
+                <ul class="transition_link">
+                    <li><a href="{{ url_for('index') }}">خانه</a></li>
+                    <li class="active"><a href="{{ url_for('about') }}">درباره من</a></li>
+                    <li><a href="{{ url_for('portfolio') }}">نمونه کار</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rightpart -->
+    <div class="rightpart">
+        <div class="rightpart_in">
+            <!-- About Section -->
+            <div id="about" class="tokyo_tm_section active">
+                <div class="container">
+                    <div class="tokyo_tm_about">
+                        <div class="tokyo_tm_title">
+                            <div class="title_flex">
+                                <div class="left">
+                                    <span>درباره من</span>
+                                    <h3>درباره من</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top_author_image">
+                            <img src="{{ url_for('static', filename='img/slider/1.jpg') }}" alt=""/>
+                        </div>
+                        <div class="about_title">
+                            <h3>{{context.full_name}}</h3>
+                            <span>توسعه دهنده وب</span>
+                        </div>
+                        <div class="about_text">
+                            <p>{{context.description}}</p>
+                        </div>
+                        <div class="tokyo_tm_short_info">
+                            <div class="left">
+                                <div class="tokyo_tm_info">
+                                    <ul>
+                                        <li><span>روز تولد:</span><span>{{context.birthdate}}</span></li>
+                                        <li><span>سن:</span><span>{{context.age}}</span></li>
+                                        <li><span>نشانی:</span><span>{{context.address}}</span></li>
+                                        <li><span>پست الکترونیک:</span><span>{{context.email}}</span></li>
+                                        <li><span>تلفن:</span><span><a href="{{context.mobile}}">{{context.mobile}}</a></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="tokyo_tm_info">
+                                    <ul>
+                                        <li><span>ملیت:</span><span>{{context.nat}}</span></li>
+                                        <li><span>تحصیلات:</span><span>{{context.ed}}</span></li>
+                                        <li><span>درجه:</span><span>{{context.level}}</span></li>
+                                        <li><span>علاقه:</span><span>{{context.intrest}}</span></li>
+                                        <li><span>فریلنسر:</span><span>در دسترس</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tokyo_tm_button" data-position="left">
+                            <a href="{{ url_for('static', filename='img/cv/1.jpg') }}" download>
+                                <span>دانلود رزومه</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills & Progress -->
+                <div class="tokyo_tm_progressbox">
+                    <div class="container">
+                        <div class="in">
+                            <div class="left">
+                                <div class="tokyo_section_title"><h3>مهارت برنامه نویسی</h3></div>
+                                <div class="tokyo_progress">
+                                    <div class="progress_inner" data-value="95">
+                                        <!-- مهارت‌های قبلی (می‌تونی حذف کنی یا نگه داری) -->
+                                        <div class="progress_inner" data-value="95">
+                                            <span><span class="label">وردپرس</span><span
+                                                    class="number">95%</span></span>
+                                            <div class="background">
+                                                <div class="bar">
+                                                    <div class="bar_in"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="progress_inner" data-value="80">
+                                            <span><span class="label">جاوااسکریپت</span><span class="number">80%</span></span>
+                                            <div class="background">
+                                                <div class="bar">
+                                                    <div class="bar_in"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="progress_inner" data-value="90">
+                                            <span><span class="label">آنگولار</span><span
+                                                    class="number">90%</span></span>
+                                            <div class="background">
+                                                <div class="bar">
+                                                    <div class="bar_in"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 6 مهارت جدید -->
+                                        <div class="progress_inner" data-value="92">
+                                            <span><span class="label">HTML / CSS</span><span
+                                                    class="number">92%</span></span>
+                                            <div class="background">
+                                                <div class="bar">
+                                                    <div class="bar_in"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="progress_inner" data-value="88">
+                                            <span><span class="label">ReactJS</span><span
+                                                    class="number">88%</span></span>
+                                            <div class="background">
+                                                <div class="bar">
+                                                    <div class="bar_in"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="progress_inner" data-value="85">
+                                            <span><span class="label">Python</span><span
+                                                    class="number">85%</span></span>
+                                            <div class="background">
+                                                <div class="bar">
+                                                    <div class="bar_in"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="progress_inner" data-value="80">
+                                            <span><span class="label">Django / Flask</span><span
+                                                    class="number">80%</span></span>
+                                            <div class="background">
+                                                <div class="bar">
+                                                    <div class="bar_in"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="progress_inner" data-value="75">
+                                            <span><span class="label">SQL / Database</span><span
+                                                    class="number">75%</span></span>
+                                            <div class="background">
+                                                <div class="bar">
+                                                    <div class="bar_in"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="progress_inner" data-value="70">
+                                            <span><span class="label">UI/UX Design</span><span class="number">70%</span></span>
+                                            <div class="background">
+                                                <div class="bar">
+                                                    <div class="bar_in"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- سایر مهارت‌ها... -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonials -->
+                <div class="tokyo_tm_testimonials">
+                    <div class="container">
+                        <div class="tokyo_section_title"><h3>نقل قولها</h3></div>
+                        <div class="list">
+                            <ul class="owl-carousel">
+                                <li>
+                                    <div class="list_inner">
+                                        <div class="text"><p>طراحی مینیمالیستی زیبا...</p></div>
+                                        <div class="details">
+                                            <div class="image">
+                                                <div class="main"
+                                                     data-img-url="{{ url_for('static', filename='img/testimonials/1.jpg') }}"></div>
+                                            </div>
+                                            <div class="info"><h3>اسکندر واکر</h3><span>طراح</span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End About Section -->
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+</div>
+
+<!-- Scripts -->
+<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+<script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+<script src="{{ url_for('static', filename='js/init.js') }}"></script>
+</body>
+</html>

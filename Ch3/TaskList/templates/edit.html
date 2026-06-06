@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>ویرایش وظیفه</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+
+        .edit-box {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        .field {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, select, textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .btn-save {
+            background: #2ecc71;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .btn-cancel {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #777;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="edit-box">
+    <h2>ویرایش وظیفه</h2>
+    <form action="/edit/{{ task.id }}" method="POST">
+        <div class="field">
+            <label>عنوان:</label>
+            <input type="text" name="title" value="{{ task.title }}" required>
+        </div>
+        <div class="field">
+            <label>توضیحات:</label>
+            <textarea name="description" rows="3">{{ task.description }}</textarea>
+        </div>
+        <div class="field">
+            <label>وضعیت:</label>
+            <select name="status">
+                <option value="pending" {% if task.status==
+                'pending' %}selected{% endif %}>در انتظار</option>
+                <option value="completed" {% if task.status==
+                'completed' %}selected{% endif %}>انجام شده</option>
+            </select>
+        </div>
+        <button value="{{ task.id }}" type="submit" class="btn-save">ذخیره تغییرات</button>
+        <a href="/" class="btn-cancel">انصراف</a>
+    </form>
+</div>
+
+</body>
+</html>

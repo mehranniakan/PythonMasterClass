@@ -1,0 +1,141 @@
+<!DتیرYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Name of your web site">
+    <meta name="author" content="Marketify">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>توکیو | خانه</title>
+
+    <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/plugins.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dark.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/modernizr.custom.js') }}"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div id="preloader">
+    <div class="loader_line"></div>
+</div>
+
+
+<div class="tokyo_tm_all_wrap" data-magic-cursor="show" data-enter="fadeInLeft" data-exit>
+
+    <div class="tokyo_tm_topbar">
+        <div class="topbar_inner">
+            <div class="logo" data-type="image">
+                <a href="#">
+                    <img src="{{ url_for('static', filename='img/logo/dark.png') }}" alt/>
+                    <h3>توکیو </h3>
+                </a>
+            </div>
+            <div class="trigger">
+                <div class="hamburger hamburger--slider">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tokyo_tm_mobile_menu">
+        <div class="menu_list">
+            <ul class="transition_link">
+                <li class="active"><a href="#home">خانه</a></li>
+                <li><a href="{{ url_for('about') }}">درباره من</a></li>
+                <li><a href="{{ url_for('portfolio') }}">نمونه کار</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="leftpart">
+        <div class="leftpart_inner">
+            <div class="logo" data-type="image">
+                <a href="#">
+                    <img src="{{ url_for('static', filename='img/logo/dark.png') }}" alt/>
+                    <h3>توکیو </h3>
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="transition_link">
+                    <li class="active"><a href="#home">خانه</a></li>
+                    <li><a href="{{ url_for('about') }}">درباره من</a></li>
+                    <li><a href="{{ url_for('portfolio') }}">نمونه کار</a></li>
+
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 1402 توکیو<br>ارایه از <a href="" target="_blank">آفرید تیم</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="rightpart">
+        <div class="rightpart_in">
+
+            <div id="home" class="tokyo_tm_section animated">
+                <div class="container">
+                    <div class="tokyo_tm_home">
+                        <div class="home_content">
+                            <div class="avatar" data-type="wave">
+                                <div class="image"
+                                     data-img-url="{{ url_for('static', filename='img/slider/1.jpg') }}"></div>
+                            </div>
+                            <div class="details">
+                                <h3 class="name"><span>{{context.full_name}}</span></h3>
+                                <p class="job">{{context.description}}</p>
+                                <div class="social">
+                                    <ul>
+                                        <li><a href="#"><i class="icon-facebook-squared"></i></a></li>
+                                        <li><a href="#"><i class="icon-twitter-squared"></i></a></li>
+                                        <li><a href="#"><i class="icon-behance-squared"></i></a></li>
+                                        <li><a href="#"><i class="icon-linkedin-squared"></i></a></li>
+                                        <li><a href="#"><i class="icon-instagram-"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/ie8.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/init.js') }}"></script>
+
+</body>
+
+</html>

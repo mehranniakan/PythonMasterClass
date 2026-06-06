@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>توکیو | نمونه کارها</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/plugins.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dark.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+
+</head>
+
+<body>
+
+<div class="tokyo_tm_all_wrap" data-magic-cursor="show">
+
+    <!-- Mobile Menu -->
+    <div class="tokyo_tm_topbar">
+        <div class="topbar_inner">
+            <div class="logo">
+                <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='img/logo/dark.png') }}"
+                                                      alt=""/></a>
+            </div>
+            <div class="trigger">
+                <div class="hamburger hamburger--slider">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left Sidebar -->
+    <div class="leftpart">
+        <div class="leftpart_inner">
+            <div class="logo">
+                <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='img/logo/dark.png') }}"
+                                                      alt=""/></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">خانه</a></li>
+                    <li><a href="{{ url_for('about') }}">درباره من</a></li>
+                    <li class="active"><a href="{{ url_for('portfolio') }}">نمونه کار</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Part -->
+    <div class="rightpart">
+        <div class="rightpart_in">
+
+            <div id="portfolio" class="tokyo_tm_section active">
+                <div class="container">
+                    <div class="tokyo_tm_portfolio">
+                        <div class="tokyo_tm_title">
+                            <div class="title_flex">
+                                <div class="left">
+                                    <span>نمونه کار</span>
+                                    <h3>نمونه کارهای خلاقانه</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list_wrapper">
+                            <ul class="portfolio_list gallery_zoom">
+
+                                <li class="detail">
+                                    <div class="inner">
+                                        <div class="entry tokyo_tm_portfolio_animation_wrap" data-title="سلنار"
+                                             data-category="طراحی سایت">
+                                            <a class="popup_info" href="#">
+                                                <img src="{{ url_for('static', filename='img/thumbs/1-1.jpg') }}"
+                                                     alt=""/>
+                                                <div class="abs_image"
+                                                     data-img-url="{{ url_for('static', filename='img/portfolio/7.jpg') }}"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="details_all_wrap">
+                                        <div class="popup_details">
+                                            <div class="additional_images">
+                                                <ul>
+                                                    <li>
+                                                        <div class="list_inner">
+                                                            <div class="my_image">
+                                                                <img src="{{ url_for('static', filename='img/thumbs/4-2.jpg') }}"
+                                                                     alt=""/>
+                                                                <div class="main"
+                                                                     data-img-url="{{ url_for('static', filename='img/portfolio/7.jpg') }}"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="main_details">
+                                                <div class="textbox">
+                                                    <p>
+                                                        متن توضیحات پروژه در اینجا قرار می‌گیرد. این بخش کاملاً رسپانسیو
+                                                        شده است
+                                                        و در موبایل به خوبی نمایش داده می‌شود.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+</div>
+
+<!-- Scripts -->
+<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+<script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+<script src="{{ url_for('static', filename='js/init.js') }}"></script>
+</body>
+</html>
