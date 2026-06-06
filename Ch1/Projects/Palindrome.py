@@ -13,6 +13,9 @@ def detector():
         rev_input += user_input[i]
         i -= 1
 
-    print(rev_input)
+    if rev_input == user_input:
+        print('Yes its palindrome')
+    else:
+        print('its not a palindrome')
 
 detector()
