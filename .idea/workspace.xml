@@ -4,287 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b67dc83-303c-4451-81f5-d8b36fd7b075" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonMasterClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch1/BMI Calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch1/Bingo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch1/FileOrganizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch1/Password_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch1/Projects/Matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch1/Projects/MostRepeatedWord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch1/WeatherProvider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch1/rock_paper_scissor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch2/AlarmClock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch2/BmiGui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch2/NoteAppGui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch2/Projects/CalculatorGui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch2/Projects/CountDownGui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch2/Projects/GalleryGui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch2/WeatherProviderGui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/HobbyList/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/css/dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/css/font/fontello3b7f.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/css/font/fontello3b7f.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/css/font/fontello3b7f.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/css/font/fontello3b7f.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/css/font/fontello3b7f.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/css/plugins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_UltraLight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_UltraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_UltraLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/1-IranSansWeb/IRANSansWeb_UltraLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/10-Aseman/g aseman.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/11-Badr/+ Badr.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/11-Badr/+ Badr.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/12-Behdad-Font/Behdad-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/12-Behdad-Font/Behdad-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/12-Behdad-Font/Behdad-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/12-Behdad-Font/Behdad-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/13-Kara/SGKara-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/13-Kara/SGKara-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/13-Kara/SGKara-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanwebbold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanwebbold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanwebbold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanwebbold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanweblight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanweblight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanweblight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanweblight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanwebregular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanwebregular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/2-IranYekan/iranyekanwebregular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/3-Bahij Palatino Sans/Bahij Palatino Sans Arabic-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/3-Bahij Palatino Sans/Bahij_Palatino_Arabic-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/3-Bahij Palatino Sans/Bahij_Palatino_Sans_Arabic-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/4-Palatino Sans/PalatinoLT.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/4-Palatino Sans/PalatinoLT.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/4-Palatino Sans/PalatinoLTArabic-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/4-Palatino Sans/PalatinoSansArabic-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/4-Palatino Sans/PalatinoSansArabic-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits-Without-Latin/Sahel-Black-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits-Without-Latin/Sahel-Black-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits-Without-Latin/Sahel-Black-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits-Without-Latin/Sahel-Bold-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits-Without-Latin/Sahel-Bold-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits-Without-Latin/Sahel-Bold-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits-Without-Latin/Sahel-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits-Without-Latin/Sahel-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits-Without-Latin/Sahel-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits/Sahel-Black-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits/Sahel-Black-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits/Sahel-Black-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits/Sahel-Bold-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits/Sahel-Bold-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits/Sahel-Bold-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits/Sahel-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits/Sahel-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Farsi-Digits/Sahel-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Sahel-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Sahel-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Sahel-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Sahel-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Sahel-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Sahel-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Sahel.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Sahel.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Sahel.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Without-Latin/Sahel-Black-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Without-Latin/Sahel-Black-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Without-Latin/Sahel-Black-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Without-Latin/Sahel-Bold-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Without-Latin/Sahel-Bold-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Without-Latin/Sahel-Bold-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Without-Latin/Sahel-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Without-Latin/Sahel-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/5-Sahel/Without-Latin/Sahel-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-Bold-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-Bold-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-Bold-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-Bold-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-Light-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-Light-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-Light-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits-Without-Latin/Shabnam-Light-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-Bold-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-Bold-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-Bold-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-Bold-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-Light-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-Light-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-Light-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Farsi-Digits/Shabnam-Light-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Read Me.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Shabnam.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-Bold-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-Bold-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-Bold-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-Bold-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-Light-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-Light-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-Light-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-Light-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/Without-Latin/Shabnam-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/6-Shabnam/YasDL.com.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/7-Vazir/Vazir.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/8-Roya/ROYA.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/8-Roya/ROYAB.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/fonts/9-Diplomat/Far_Diplomat.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/cv/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/intro/dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/intro/light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/logo/dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/news/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/news/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/news/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/news/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/dark/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/dark/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/dark/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/dark/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/dark/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/dark/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/dark/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/dark/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/light/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/light/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/light/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/light/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/light/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/light/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/light/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/partners/light/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/portfolio/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/portfolio/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/portfolio/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/portfolio/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/portfolio/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/portfolio/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/portfolio/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/portfolio/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/slider/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/svg/rightarrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/testimonials/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/testimonials/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/testimonials/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/thumbs/1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/thumbs/4-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/img/thumbs/40-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/js/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/static/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/Portfolio/templates/portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch3/TaskList/templates/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch4/Projects/Cooking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch4/Projects/Expenses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch4/Projects/Weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch4/ToDo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch5/BS4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch5/KeyboardControll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch5/MouseControll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch5/Projects/CryptoBot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch5/Projects/Shortcuts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch5/Projects/WebCrawling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch5/Selenium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch5/TelegramBot.py" afterDir="false" />
+    <list default="true" id="3b67dc83-303c-4451-81f5-d8b36fd7b075" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch1/Projects/Palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,6 +38,18 @@
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mehranniakan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mehranniakan/PythonMasterClass",
+    "accountId": "e074e4af-823b-4291-8658-dfd2cdde66d3"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -324,45 +59,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AlarmClock.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BMI Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Bingo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BmiGui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CalculatorGui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CountDown.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CountDownGui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CryptoBot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FileOrganizer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GalleryGui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MostRepeatedWord.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NoteAppGui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Password_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WeatherProvider.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WeatherProviderGui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WebCrawling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rock_paper_scissor.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20260606_0002&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mehran/PycharmProjects/PythonMasterClass/Ch3/HobbyList&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Python.AlarmClock.executor": "Run",
+    "Python.BMI Calculator.executor": "Run",
+    "Python.Bingo.executor": "Run",
+    "Python.BmiGui.executor": "Run",
+    "Python.Calculator.executor": "Run",
+    "Python.CalculatorGui.executor": "Run",
+    "Python.CountDown.executor": "Run",
+    "Python.CountDownGui.executor": "Run",
+    "Python.CryptoBot.executor": "Run",
+    "Python.FileOrganizer.executor": "Run",
+    "Python.GalleryGui.executor": "Run",
+    "Python.Matrix.executor": "Run",
+    "Python.MostRepeatedWord.executor": "Run",
+    "Python.NoteAppGui.executor": "Run",
+    "Python.Palindrome.executor": "Run",
+    "Python.Password_generator.executor": "Run",
+    "Python.WeatherProvider.executor": "Run",
+    "Python.WeatherProviderGui.executor": "Run",
+    "Python.WebCrawling.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.rock_paper_scissor.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.google.cloudcode.ide_session_index": "20260606_0005",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Mehran/PycharmProjects/PythonMasterClass/Ch3/HobbyList",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mehran\PycharmProjects\PythonMasterClass\Ch3\HobbyList" />
@@ -557,7 +293,18 @@
       <workItem from="1780658528100" duration="12444000" />
       <workItem from="1780691774363" duration="2687000" />
       <workItem from="1780740965311" duration="4951000" />
+      <workItem from="1780745982502" duration="357000" />
+      <workItem from="1780746639073" duration="296000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1780746131634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780746131634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,6 +320,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
