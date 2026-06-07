@@ -11,22 +11,18 @@ import os
 
 class ImageGalleryApp(App):
     def build(self):
-        # لایه اصلی برنامه
         self.main_layout = BoxLayout(orientation='vertical', padding=10, spacing=10)
 
-        # ۱. دکمه بالا برای انتخاب فولدر
         self.btn_select_folder = Button(text="Select Folder with Images", size_hint_y=0.1)
         self.btn_select_folder.bind(on_release=self.show_folder_chooser)
         self.main_layout.add_widget(self.btn_select_folder)
 
-        # ۲. فضایی برای نمایش اسلایدر یا متن راهنما
         self.gallery_area = BoxLayout(orientation='vertical')
         self.placeholder_label = Label(text="No folder selected yet.\nClick the button above to load images.",
                                        halign="center")
         self.gallery_area.add_widget(self.placeholder_label)
         self.main_layout.add_widget(self.gallery_area)
 
-        # ۳. دکمه‌های ناوبری (بعدی / قبلی) که در ابتدا مخفی یا غیرفعال هستند
         self.nav_layout = BoxLayout(size_hint_y=0.1, spacing=10)
         self.btn_prev = Button(text="Previous", disabled=True)
         self.btn_next = Button(text="Next", disabled=True)
@@ -45,7 +41,7 @@ class ImageGalleryApp(App):
         box = BoxLayout(orientation='vertical', spacing=10)
 
         file_chooser = FileChooserListView(dirselect=True)
-        file_chooser.path = os.path.expanduser("~")  # شروع از پوشه کاربری
+        file_chooser.path = os.path.expanduser("~")
 
         btn_layout = BoxLayout(size_hint_y=None, height=50, spacing=10)
         btn_select = Button(text="Choose This Folder")

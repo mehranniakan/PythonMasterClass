@@ -19,6 +19,7 @@ class CalculatorApp:
         self.result_entry.insert(0, "0")
 
 
+        ## [(Keynum, RowNum, ColNum)]
         self.buttons = [
             ("7", 1, 0), ("8", 1, 1), ("9", 1, 2), ("/", 1, 3),
             ("4", 2, 0), ("5", 2, 1), ("6", 2, 2), ("*", 2, 3),
@@ -26,6 +27,7 @@ class CalculatorApp:
             ("C", 4, 0), ("0", 4, 1), ("=", 4, 2), ("+", 4, 3),
         ]
 
+        ## Create all Keypads
         self.keypads = {}
         for (text, r, c) in self.buttons:
             btn = tk.Button(
