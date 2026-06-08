@@ -13,6 +13,7 @@ def index():
     return render_template('index.html', hobbys=hobbys)
 
 @app.route('/add', methods=['POST','GET'])
+
 def add_task():
     global hobbys
 

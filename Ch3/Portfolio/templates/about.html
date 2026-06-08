@@ -111,109 +111,32 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Skills & Progress -->
+                {% if context.skills %}
                 <div class="tokyo_tm_progressbox">
                     <div class="container">
                         <div class="in">
                             <div class="left">
                                 <div class="tokyo_section_title"><h3>مهارت برنامه نویسی</h3></div>
                                 <div class="tokyo_progress">
+
+                                    {% for name,percent in context.skills.items() %}
                                     <div class="progress_inner" data-value="95">
-                                        <!-- مهارت‌های قبلی (می‌تونی حذف کنی یا نگه داری) -->
-                                        <div class="progress_inner" data-value="95">
-                                            <span><span class="label">وردپرس</span><span
-                                                    class="number">95%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="progress_inner" data-value="80">
-                                            <span><span class="label">جاوااسکریپت</span><span class="number">80%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="progress_inner" data-value="90">
-                                            <span><span class="label">آنگولار</span><span
-                                                    class="number">90%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- 6 مهارت جدید -->
-                                        <div class="progress_inner" data-value="92">
-                                            <span><span class="label">HTML / CSS</span><span
-                                                    class="number">92%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="progress_inner" data-value="88">
-                                            <span><span class="label">ReactJS</span><span
-                                                    class="number">88%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="progress_inner" data-value="85">
-                                            <span><span class="label">Python</span><span
-                                                    class="number">85%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="progress_inner" data-value="80">
-                                            <span><span class="label">Django / Flask</span><span
-                                                    class="number">80%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="progress_inner" data-value="75">
-                                            <span><span class="label">SQL / Database</span><span
-                                                    class="number">75%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="progress_inner" data-value="70">
-                                            <span><span class="label">UI/UX Design</span><span class="number">70%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
+                                            <span><span class="label">{{ name }}</span><span
+                                                    class="number">{{ percent }}%</span></span>
+                                        <div class="background">
+                                            <div class="bar">
+                                                <div class="bar_in"></div>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- سایر مهارت‌ها... -->
+                                    {% endfor %}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                {% endif %}
+
 
                 <!-- Testimonials -->
                 <div class="tokyo_tm_testimonials">
@@ -237,11 +160,11 @@
                         </div>
                     </div>
                 </div>
-            </div> <!-- End About Section -->
+            </div>
         </div>
     </div>
 
-    <!-- Cursor -->
+
     <div class="mouse-cursor cursor-outer"></div>
     <div class="mouse-cursor cursor-inner"></div>
 </div>
