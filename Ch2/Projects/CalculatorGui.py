@@ -18,7 +18,6 @@ class CalculatorApp:
         self.result_entry = tk.Entry(self.window, font=("Segoe UI", 18), justify="center")
         self.result_entry.insert(0, "0")
 
-
         ## [(Keynum, RowNum, ColNum)]
         self.buttons = [
             ("7", 1, 0), ("8", 1, 1), ("9", 1, 2), ("/", 1, 3),
