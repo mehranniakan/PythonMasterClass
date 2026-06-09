@@ -130,7 +130,7 @@ async def delete_recipe(request: Request):
                     status=400)
 
 
-@app.route("/recipes", methods=["GET"])
+@app.route("/recipes/export", methods=["GET"])
 async def export_csv(request: Request):
     global recipe_list
 
