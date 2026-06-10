@@ -76,3 +76,7 @@ def web_crawler_bs4():
     file_path = os.path.join(os.getcwd(), file_name)
 
     df.to_csv(file_path, index=False, encoding="utf-8")
+
+
+web_crawler_selenium()
+web_crawler_bs4()

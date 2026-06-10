@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b67dc83-303c-4451-81f5-d8b36fd7b075" name="Changes" comment="modify Ch3 Projects">
+    <list default="true" id="3b67dc83-303c-4451-81f5-d8b36fd7b075" name="Changes" comment="modify Ch4 Projects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +79,7 @@
     &quot;Python.NoteAppGui.executor&quot;: &quot;Run&quot;,
     &quot;Python.Palindrome.executor&quot;: &quot;Run&quot;,
     &quot;Python.Password_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Weather.executor&quot;: &quot;Run&quot;,
     &quot;Python.WeatherProvider.executor&quot;: &quot;Run&quot;,
     &quot;Python.WeatherProviderGui.executor&quot;: &quot;Run&quot;,
     &quot;Python.WebCrawling.executor&quot;: &quot;Run&quot;,
@@ -86,7 +87,7 @@
     &quot;Python.rock_paper_scissor.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20260608_0001&quot;,
+    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20260610_0001&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Mehran/PycharmProjects/PythonMasterClass/Ch3/HobbyList&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -112,7 +113,7 @@
       <recent name="C:\Users\Mehran\PycharmProjects\PythonMasterClass\Ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GalleryGui">
+  <component name="RunManager" selected="Python.WebCrawling">
     <configuration name="CalculatorGui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonMasterClass" />
       <option name="ENV_FILES" value="" />
@@ -182,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Weather" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonMasterClass" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,12 +192,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch1/Projects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch4/Projects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch1/Projects/Matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch4/Projects/Weather.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MostLongestWord" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="WebCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonMasterClass" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,12 +215,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch1/Projects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch5/Projects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch1/Projects/MostLongestWord.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch5/Projects/WebCrawling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.WebCrawling" />
+        <item itemvalue="Python.Weather" />
         <item itemvalue="Python.GalleryGui" />
         <item itemvalue="Python.CountDownGui" />
         <item itemvalue="Python.CalculatorGui" />
-        <item itemvalue="Python.MostLongestWord" />
-        <item itemvalue="Python.Matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -296,6 +297,9 @@
       <workItem from="1780746639073" duration="3472000" />
       <workItem from="1780832353980" duration="1279000" />
       <workItem from="1780915307094" duration="2197000" />
+      <workItem from="1780917528865" duration="1533000" />
+      <workItem from="1781003016350" duration="1822000" />
+      <workItem from="1781048477930" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -377,7 +381,31 @@
       <option name="project" value="LOCAL" />
       <updated>1780917402086</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modify Ch3 Projects">
+      <option name="closed" value="true" />
+      <created>1780917569708</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1780917569708</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modify Ch3 Projects">
+      <option name="closed" value="true" />
+      <created>1780917818176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1780917818176</updated>
+    </task>
+    <task id="LOCAL-00013" summary="modify Ch4 Projects">
+      <option name="closed" value="true" />
+      <created>1781004481380</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1781004481380</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +431,8 @@
     <MESSAGE value="modify MostLongestWord.py" />
     <MESSAGE value="modify Ch2 Projects" />
     <MESSAGE value="modify Ch3 Projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify Ch3 Projects" />
+    <MESSAGE value="modify Ch4 Projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify Ch4 Projects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,6 +446,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonMasterClass$Weather.coverage" NAME="Weather Coverage Results" MODIFIED="1781003966086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ch4/Projects" />
     <SUITE FILE_PATH="coverage/PythonMasterClass$BmiGui.coverage" NAME="BmiGui Coverage Results" MODIFIED="1779534685053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ch2" />
     <SUITE FILE_PATH="coverage/PythonMasterClass$Matrix.coverage" NAME="Matrix Coverage Results" MODIFIED="1780748668860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ch1/Projects" />
     <SUITE FILE_PATH="coverage/PythonMasterClass$AlarmClock.coverage" NAME="AlarmClock Coverage Results" MODIFIED="1779288573205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ch2" />
